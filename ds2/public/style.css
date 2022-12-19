@@ -1,0 +1,77 @@
+
+    /* Kadiri Mehdi G2
+    Salah eddine abouelkemhe G1 */
+
+
+body{
+    background-color: #2b78d5;
+    display: flex;
+    justify-content: center;
+    margin-top: 25vh;
+}
+.container{
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: fit-content;
+    height: 55vh;
+}
+.data{
+    margin-top: 5vh;
+}
+.data > form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.data > form > .todoname{
+    border-color: #2b78d5;
+    border-radius: 8px;
+    width:20vw;
+    height:5vh;
+}
+.data > form > .todobtn{
+    background-color: #2b78d5;
+    color: white;
+    width: 4vw;
+    height: 4vh;
+    border-radius: 10px;
+    height:5vh;
+    font-weight: bolder;
+}
+.todolist{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40vh;
+    overflow: scroll;
+}
+.todos{
+    border: 1px solid #c9d0d3;
+    background-color: #cfe7ea;
+    border-radius: 8px;
+    width: 30vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:5px;
+    align-items: center;
+    padding: 5px;
+}
+.todos > .name{
+    font-weight: lighter;
+}
+.delete{
+    background-color: #2a34b4;
+    height: 5vh;
+    border-radius: 10px;
+    padding:8px;
+}
+.delete > a{
+    text-decoration: none;
+    color: white;
+}
